@@ -13,7 +13,10 @@
 
 #define BUFFER_SIZE 1490
 
-void UDP_stream(const char** host, int port, char** payload_buffer);
-void TCP_HTTP_stream(const char** host, int port, char** payload_buffer);
+// Client utils for sending data for different protocols
+void udp_stream(const char** host, int port, char** payload_buffer);
+void tcp_http_stream(const char** host, int port, char* payload_buffer);
+
+
 
 #endif

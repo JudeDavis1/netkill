@@ -1,6 +1,9 @@
-#include "rand.h"
-#include "networking.h"
+// All local
+#include <rand.h>
+#include <networking.h>
 
+// TODO:
+// - Correctly catch CTRL-C signals and free memory.
 
 int main(int argc, const char** argv)
 {
@@ -12,7 +15,7 @@ int main(int argc, const char** argv)
     }
 
     int port = atoi(argv[2]);
-    unsigned char** payload_buffer = nk_rand_bytes(1490);
-    UDP_stream(&argv[1], port, &payload_buffer);
+    unsigned char* payload_buffer = nk_rand_bytes(24090);
+    udp_stream(&argv[1], port, &payload_buffer);
 }
 

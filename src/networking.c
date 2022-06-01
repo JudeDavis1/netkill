@@ -1,7 +1,7 @@
 #include "networking.h"
 
 
-void UDP_stream(const char** host, int port, char** payload_buffer)
+void udp_stream(const char** host, int port, char** payload_buffer)
 {
 	int s;
 	int cycle_count = 0;
@@ -15,7 +15,6 @@ void UDP_stream(const char** host, int port, char** payload_buffer)
     server.sin_addr.s_addr = inet_addr(*host);
 
     memset(server.sin_zero, '\0', sizeof(server.sin_zero));
-
 	// No need to reconnect after each cycle
 	// UDP doesn't use connections
     while (true)
@@ -26,9 +25,11 @@ void UDP_stream(const char** host, int port, char** payload_buffer)
         if (cycle_count % 1000 == 0)
             printf("Sent: %d to %s\n", cycle_count, *host);
     }
+	printf("poo");
+	free(payload_buffer);
 }
 
-void TCP_HTTP_stream(const char** host, int port, char** payload_buffer)
+void tcp_http_stream(const char** host, int port, char* payload_buffer)
 {
 	int s;                        // Main socket
 	int cycle_count = 0;          // The number of cycles the stream has completed
