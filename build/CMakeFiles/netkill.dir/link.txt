@@ -1,1 +1,1 @@
-/usr/bin/cc CMakeFiles/netkill.dir/netkill.c.o CMakeFiles/netkill.dir/src/networking.c.o CMakeFiles/netkill.dir/src/rand.c.o -o netkill 
+/usr/bin/gcc CMakeFiles/netkill.dir/netkill.c.o CMakeFiles/netkill.dir/src/networking.c.o CMakeFiles/netkill.dir/src/rand.c.o -o netkill 

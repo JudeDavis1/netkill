@@ -15,7 +15,7 @@
 
 // Client utils for sending data for different protocols
 void udp_stream(const char** host, int port, char** payload_buffer);
-void tcp_http_stream(const char** host, int port, char* payload_buffer);
+void tcp_http_stream(const char** host, int port, char** payload_buffer);
 
 
 

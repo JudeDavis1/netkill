@@ -14,9 +14,12 @@ void udp_stream(const char** host, int port, char** payload_buffer)
     server.sin_port = htons(port);
     server.sin_addr.s_addr = inet_addr(*host);
 
-    memset(server.sin_zero, '\0', sizeof(server.sin_zero));
+	// Pad the structure
+    memset(&(server.sin_zero), '\0', sizeof(server.sin_zero));
+
 	// No need to reconnect after each cycle
 	// UDP doesn't use connections
+
     while (true)
     {
         sendto(s, *payload_buffer, strlen(*payload_buffer), 0, (struct sockaddr *)&server, sizeof(server));
@@ -29,7 +32,7 @@ void udp_stream(const char** host, int port, char** payload_buffer)
 	free(payload_buffer);
 }
 
-void tcp_http_stream(const char** host, int port, char* payload_buffer)
+void tcp_http_stream(const char** host, int port, char** payload_buffer)
 {
 	int s;                        // Main socket
 	int cycle_count = 0;          // The number of cycles the stream has completed
@@ -58,3 +61,4 @@ void tcp_http_stream(const char** host, int port, char* payload_buffer)
 		close(s);
 	}
 }
+

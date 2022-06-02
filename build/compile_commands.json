@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/mnt/c/Users/juded/OneDrive/Documents/InfoSec/netkill/build",
+  "command": "/usr/bin/gcc -I/mnt/c/Users/juded/OneDrive/Documents/InfoSec/netkill/src -g -o CMakeFiles/netkill.dir/netkill.c.o -c /mnt/c/Users/juded/OneDrive/Documents/InfoSec/netkill/netkill.c",
+  "file": "/mnt/c/Users/juded/OneDrive/Documents/InfoSec/netkill/netkill.c"
+},
+{
+  "directory": "/mnt/c/Users/juded/OneDrive/Documents/InfoSec/netkill/build",
+  "command": "/usr/bin/gcc -I/mnt/c/Users/juded/OneDrive/Documents/InfoSec/netkill/src -g -o CMakeFiles/netkill.dir/src/networking.c.o -c /mnt/c/Users/juded/OneDrive/Documents/InfoSec/netkill/src/networking.c",
+  "file": "/mnt/c/Users/juded/OneDrive/Documents/InfoSec/netkill/src/networking.c"
+},
+{
+  "directory": "/mnt/c/Users/juded/OneDrive/Documents/InfoSec/netkill/build",
+  "command": "/usr/bin/gcc -I/mnt/c/Users/juded/OneDrive/Documents/InfoSec/netkill/src -g -o CMakeFiles/netkill.dir/src/rand.c.o -c /mnt/c/Users/juded/OneDrive/Documents/InfoSec/netkill/src/rand.c",
+  "file": "/mnt/c/Users/juded/OneDrive/Documents/InfoSec/netkill/src/rand.c"
+}
+]

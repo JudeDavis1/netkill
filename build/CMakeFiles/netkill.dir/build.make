@@ -73,43 +73,43 @@ CMakeFiles/netkill.dir/netkill.c.o: CMakeFiles/netkill.dir/flags.make
 CMakeFiles/netkill.dir/netkill.c.o: ../netkill.c
 CMakeFiles/netkill.dir/netkill.c.o: CMakeFiles/netkill.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/juded/OneDrive/Documents/InfoSec/netkill/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/netkill.dir/netkill.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/netkill.dir/netkill.c.o -MF CMakeFiles/netkill.dir/netkill.c.o.d -o CMakeFiles/netkill.dir/netkill.c.o -c /mnt/c/Users/juded/OneDrive/Documents/InfoSec/netkill/netkill.c
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/netkill.dir/netkill.c.o -MF CMakeFiles/netkill.dir/netkill.c.o.d -o CMakeFiles/netkill.dir/netkill.c.o -c /mnt/c/Users/juded/OneDrive/Documents/InfoSec/netkill/netkill.c
 
 CMakeFiles/netkill.dir/netkill.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/netkill.dir/netkill.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/juded/OneDrive/Documents/InfoSec/netkill/netkill.c > CMakeFiles/netkill.dir/netkill.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/juded/OneDrive/Documents/InfoSec/netkill/netkill.c > CMakeFiles/netkill.dir/netkill.c.i
 
 CMakeFiles/netkill.dir/netkill.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/netkill.dir/netkill.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/juded/OneDrive/Documents/InfoSec/netkill/netkill.c -o CMakeFiles/netkill.dir/netkill.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/juded/OneDrive/Documents/InfoSec/netkill/netkill.c -o CMakeFiles/netkill.dir/netkill.c.s
 
 CMakeFiles/netkill.dir/src/networking.c.o: CMakeFiles/netkill.dir/flags.make
 CMakeFiles/netkill.dir/src/networking.c.o: ../src/networking.c
 CMakeFiles/netkill.dir/src/networking.c.o: CMakeFiles/netkill.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/juded/OneDrive/Documents/InfoSec/netkill/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/netkill.dir/src/networking.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/netkill.dir/src/networking.c.o -MF CMakeFiles/netkill.dir/src/networking.c.o.d -o CMakeFiles/netkill.dir/src/networking.c.o -c /mnt/c/Users/juded/OneDrive/Documents/InfoSec/netkill/src/networking.c
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/netkill.dir/src/networking.c.o -MF CMakeFiles/netkill.dir/src/networking.c.o.d -o CMakeFiles/netkill.dir/src/networking.c.o -c /mnt/c/Users/juded/OneDrive/Documents/InfoSec/netkill/src/networking.c
 
 CMakeFiles/netkill.dir/src/networking.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/netkill.dir/src/networking.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/juded/OneDrive/Documents/InfoSec/netkill/src/networking.c > CMakeFiles/netkill.dir/src/networking.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/juded/OneDrive/Documents/InfoSec/netkill/src/networking.c > CMakeFiles/netkill.dir/src/networking.c.i
 
 CMakeFiles/netkill.dir/src/networking.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/netkill.dir/src/networking.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/juded/OneDrive/Documents/InfoSec/netkill/src/networking.c -o CMakeFiles/netkill.dir/src/networking.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/juded/OneDrive/Documents/InfoSec/netkill/src/networking.c -o CMakeFiles/netkill.dir/src/networking.c.s
 
 CMakeFiles/netkill.dir/src/rand.c.o: CMakeFiles/netkill.dir/flags.make
 CMakeFiles/netkill.dir/src/rand.c.o: ../src/rand.c
 CMakeFiles/netkill.dir/src/rand.c.o: CMakeFiles/netkill.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/juded/OneDrive/Documents/InfoSec/netkill/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/netkill.dir/src/rand.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/netkill.dir/src/rand.c.o -MF CMakeFiles/netkill.dir/src/rand.c.o.d -o CMakeFiles/netkill.dir/src/rand.c.o -c /mnt/c/Users/juded/OneDrive/Documents/InfoSec/netkill/src/rand.c
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/netkill.dir/src/rand.c.o -MF CMakeFiles/netkill.dir/src/rand.c.o.d -o CMakeFiles/netkill.dir/src/rand.c.o -c /mnt/c/Users/juded/OneDrive/Documents/InfoSec/netkill/src/rand.c
 
 CMakeFiles/netkill.dir/src/rand.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/netkill.dir/src/rand.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/juded/OneDrive/Documents/InfoSec/netkill/src/rand.c > CMakeFiles/netkill.dir/src/rand.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/juded/OneDrive/Documents/InfoSec/netkill/src/rand.c > CMakeFiles/netkill.dir/src/rand.c.i
 
 CMakeFiles/netkill.dir/src/rand.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/netkill.dir/src/rand.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/juded/OneDrive/Documents/InfoSec/netkill/src/rand.c -o CMakeFiles/netkill.dir/src/rand.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/juded/OneDrive/Documents/InfoSec/netkill/src/rand.c -o CMakeFiles/netkill.dir/src/rand.c.s
 
 # Object files for target netkill
 netkill_OBJECTS = \
