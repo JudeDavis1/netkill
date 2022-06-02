@@ -2,9 +2,6 @@
 #include <rand.h>
 #include <networking.h>
 
-// TODO: (ordered: most important - least important)
-// - Redo the socket part of the API such that we don't have to reuse code.
-// - Correctly catch CTRL-C signals then free memory.
 
 int main(int argc, const char** argv)
 {
