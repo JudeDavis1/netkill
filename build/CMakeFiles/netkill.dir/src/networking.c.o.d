@@ -1,7 +1,7 @@
 CMakeFiles/netkill.dir/src/networking.c.o: \
- /mnt/c/Users/juded/OneDrive/Documents/InfoSec/hLevel/src/networking.c \
+ /mnt/c/Users/juded/OneDrive/Documents/InfoSec/netkill/src/networking.c \
  /usr/include/stdc-predef.h \
- /mnt/c/Users/juded/OneDrive/Documents/InfoSec/hLevel/src/networking.h \
+ /mnt/c/Users/juded/OneDrive/Documents/InfoSec/netkill/src/networking.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \

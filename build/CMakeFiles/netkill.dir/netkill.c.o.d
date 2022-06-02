@@ -1,8 +1,8 @@
 CMakeFiles/netkill.dir/netkill.c.o: \
- /mnt/c/Users/juded/OneDrive/Documents/InfoSec/hLevel/netkill.c \
+ /mnt/c/Users/juded/OneDrive/Documents/InfoSec/netkill/netkill.c \
  /usr/include/stdc-predef.h \
- /mnt/c/Users/juded/OneDrive/Documents/InfoSec/hLevel/src/rand.h \
- /mnt/c/Users/juded/OneDrive/Documents/InfoSec/hLevel/src/networking.h \
+ /mnt/c/Users/juded/OneDrive/Documents/InfoSec/netkill/src/rand.h \
+ /mnt/c/Users/juded/OneDrive/Documents/InfoSec/netkill/src/networking.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \

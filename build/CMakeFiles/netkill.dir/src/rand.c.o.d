@@ -1,7 +1,7 @@
 CMakeFiles/netkill.dir/src/rand.c.o: \
- /mnt/c/Users/juded/OneDrive/Documents/InfoSec/hLevel/src/rand.c \
+ /mnt/c/Users/juded/OneDrive/Documents/InfoSec/netkill/src/rand.c \
  /usr/include/stdc-predef.h \
- /mnt/c/Users/juded/OneDrive/Documents/InfoSec/hLevel/src/rand.h \
+ /mnt/c/Users/juded/OneDrive/Documents/InfoSec/netkill/src/rand.h \
  /usr/include/time.h /usr/include/features.h \
  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
