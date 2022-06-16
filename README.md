@@ -15,5 +15,5 @@ NetKill is a tool (obviously written in C) to be used in tests which support TCP
 - I am NOT responsible for any misuse or illicit acts committed using NETKill.
 - Use at your discretion. Once again: I am not responsible for any damages cause by this tool.
 - Some networks may not suffer immediately, however sustained attacks may have an impact.
-- Permission is NOT granted to redistribute without credit.
+- Please do not redistribute without appropriate credit.
 
