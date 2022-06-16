@@ -28,7 +28,6 @@ void udp_stream(const char** host, int port, char** payload_buffer)
         if (cycle_count % 1000 == 0)
             printf("Sent: %d to %s\n", cycle_count, *host);
     }
-	printf("poo");
 	free(payload_buffer);
 }
 
