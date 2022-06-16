@@ -13,7 +13,8 @@ int main(int argc, const char** argv)
     }
 
     int port = atoi(argv[2]);
-    unsigned char* payload_buffer = nk_rand_bytes(24090);
+    unsigned char* payload_buffer = nk_rand_bytes(9000);
+
 
     udp_stream(&argv[1], port, (char**)&payload_buffer);
 }

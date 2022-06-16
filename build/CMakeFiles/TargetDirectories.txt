@@ -1,3 +1,3 @@
-/mnt/c/Users/juded/OneDrive/Documents/InfoSec/netkill/build/CMakeFiles/netkill.dir
-/mnt/c/Users/juded/OneDrive/Documents/InfoSec/netkill/build/CMakeFiles/edit_cache.dir
-/mnt/c/Users/juded/OneDrive/Documents/InfoSec/netkill/build/CMakeFiles/rebuild_cache.dir
+/home/jude/OneDrive/Documents/InfoSec/netkill/build/CMakeFiles/netkill.dir
+/home/jude/OneDrive/Documents/InfoSec/netkill/build/CMakeFiles/edit_cache.dir
+/home/jude/OneDrive/Documents/InfoSec/netkill/build/CMakeFiles/rebuild_cache.dir

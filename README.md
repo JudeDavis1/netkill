@@ -1,8 +1,9 @@
 # Description
-NetKill is a tool (obviously written in C) to be used in tests which will 
+NetKill is a tool (obviously written in C) to be used in tests which will test a network's integrity to defend against a DoS/DDoS attack. (Disclaimers below)
 
 # TODO: (ordered: most important - least important)
-- Redo the socket part of the API such that we don't have to reuse code.
+- Redo the socket part of the API such that we don't have to reuse code. (In progress)
+- Add ability to use hostnames instead of specific IP addresses.
 - Correctly catch CTRL-C signals then free memory.
 
 
