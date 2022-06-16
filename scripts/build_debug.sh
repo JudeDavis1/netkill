@@ -1,3 +1,5 @@
+cd ..
+
 # Create build folder and enter it
 mkdir build
 cd build
@@ -9,4 +11,4 @@ cmake -DCMAKE_BUILD_TYPE=Debug ..
 make
 
 cd ..
-
+cd scripts

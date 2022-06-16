@@ -1,3 +1,6 @@
+# Go out of 'scripts' directory
+cd ..
+
 # Create build directory and enter it
 mkdir build
 cd build
@@ -9,3 +12,4 @@ cmake -DCMAKE_BUILD_TYPE=Release ..
 make
 
 cd ..
+cd scripts
